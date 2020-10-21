@@ -10,5 +10,5 @@
     <color name="background">#1A9D46</color>
     <color name="colorcentral">#22D65F</color>
     <color name = "botones_numero">#00BCD4</color>
-    <color name = "botones_calculo">#007D8D</color>
+    <color name = "botones_calculo">#00525D</color>
 </resources>

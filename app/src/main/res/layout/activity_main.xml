@@ -8,23 +8,10 @@
     tools:context=".MainActivity"
 
     >
-
-    <EditText
-        android:id="@+id/Nombre"
-        android:layout_width="match_parent"
-        android:layout_height="117dp"
-        android:background="@color/colorcentral"
-        android:ems="10"
-        android:textSize="10pt"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:inputType="textPersonName"
-        android:text="Calculadora de María Dolores" />
-
     <EditText
         android:id="@+id/Mostrarnumeros"
         android:layout_width="match_parent"
-        android:layout_height="60pt"
+        android:layout_height="107pt"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="0"
@@ -257,6 +244,3 @@
     </LinearLayout>
 
 </LinearLayout>
-
-
-
