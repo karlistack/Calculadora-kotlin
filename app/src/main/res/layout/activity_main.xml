@@ -37,89 +37,90 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-                <Button
-                    android:id="@+id/BORRA"
-                    android:layout_weight="1"
-                    android:layout_width="15pt"
-                    android:layout_height="30pt"
-                    android:text="BORRA"
-                    android:layout_marginRight="2pt"
-                    android:background="@color/botones_numero">
-                </Button>
-                <Button
-                    android:id="@+id/BIN"
-                    android:layout_weight="1"
-                    android:layout_width="15pt"
-                    android:layout_height="30pt"
-                    android:text="BIN"
-                    android:layout_marginRight="2pt"
-
-                    android:background="@color/botones_numero">
-                </Button>
-                <Button
-                    android:id="@+id/HEX"
-                    android:layout_weight="1"
-                    android:layout_width="15pt"
-                    android:layout_height="30pt"
-                    android:text="HEX"
-                    android:layout_marginRight="2pt"
-                    android:background="@color/botones_numero">
-                </Button>
-                <Button
-                    android:id="@+id/DEC"
-                    android:layout_weight="1"
-                    android:layout_width="15pt"
-                    android:layout_height="30pt"
-                    android:text="DEC"
-                    android:layout_marginRight="2pt"
-                    android:background="@color/botones_numero">
-                </Button>
-        </TableRow>
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <Button
-                android:id="@+id/b1"
+                android:id="@+id/BORRA"
                 android:layout_weight="1"
                 android:layout_width="15pt"
                 android:layout_height="30pt"
-                android:text="1"
+                android:text="BORRA"
                 android:layout_marginRight="2pt"
-                android:background="@color/botones_numero">
+                android:background="@color/botones_numero"
+                tools:ignore="ButtonStyle">
             </Button>
             <Button
-                android:id="@+id/b2"
+                android:id="@+id/negativopositivo"
                 android:layout_weight="1"
                 android:layout_width="15pt"
                 android:layout_height="30pt"
-                android:text="2"
+                android:text="+/-"
                 android:layout_marginRight="2pt"
 
                 android:background="@color/botones_numero">
             </Button>
             <Button
-                android:id="@+id/b3"
+                android:id="@+id/anterior"
                 android:layout_weight="1"
                 android:layout_width="15pt"
                 android:layout_height="30pt"
-                android:text="3"
+                android:text="anterior"
                 android:layout_marginRight="2pt"
                 android:background="@color/botones_numero">
             </Button>
             <Button
-                android:id="@+id/suma"
+                android:id="@+id/igual"
                 android:layout_weight="1"
                 android:layout_width="15pt"
                 android:layout_height="30pt"
-                android:text="+"
+                android:text="="
                 android:layout_marginRight="2pt"
                 android:background="@color/botones_calculo">
             </Button>
         </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/b7"
+                android:layout_weight="1"
+                android:layout_width="15pt"
+                android:layout_height="30pt"
+                android:text="7"
+                android:layout_marginRight="2pt"
+                android:background="@color/botones_numero">
+            </Button>
+            <Button
+                android:id="@+id/b8"
+                android:layout_weight="1"
+                android:layout_width="15pt"
+                android:layout_height="30pt"
+                android:text="8"
+                android:layout_marginRight="2pt"
+
+                android:background="@color/botones_numero">
+            </Button>
+            <Button
+                android:id="@+id/b9"
+                android:layout_weight="1"
+                android:layout_width="15pt"
+                android:layout_height="30pt"
+                android:text="9"
+                android:layout_marginRight="2pt"
+                android:background="@color/botones_numero">
+            </Button>
+            <Button
+                android:id="@+id/mutlplicacion"
+                android:layout_weight="1"
+                android:layout_width="15pt"
+                android:layout_height="30pt"
+                android:text="x"
+                android:layout_marginRight="2pt"
+                android:background="@color/botones_calculo">
+            </Button>
+        </TableRow>
+
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -165,43 +166,48 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <Button
-                android:id="@+id/b7"
+                android:id="@+id/b1"
                 android:layout_weight="1"
                 android:layout_width="15pt"
                 android:layout_height="30pt"
-                android:text="7"
+                android:text="1"
                 android:layout_marginRight="2pt"
                 android:background="@color/botones_numero">
             </Button>
             <Button
-                android:id="@+id/b8"
+                android:id="@+id/b2"
                 android:layout_weight="1"
                 android:layout_width="15pt"
                 android:layout_height="30pt"
-                android:text="8"
+                android:text="2"
                 android:layout_marginRight="2pt"
 
                 android:background="@color/botones_numero">
             </Button>
             <Button
-                android:id="@+id/b9"
+                android:id="@+id/b3"
                 android:layout_weight="1"
                 android:layout_width="15pt"
                 android:layout_height="30pt"
-                android:text="9"
+                android:text="3"
                 android:layout_marginRight="2pt"
                 android:background="@color/botones_numero">
             </Button>
             <Button
-                android:id="@+id/mutlplicacion"
+                android:id="@+id/suma"
                 android:layout_weight="1"
                 android:layout_width="15pt"
                 android:layout_height="30pt"
-                android:text="*"
+                android:text="+"
                 android:layout_marginRight="2pt"
                 android:background="@color/botones_calculo">
             </Button>
         </TableRow>
+
+
+
+
+
     </TableLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -220,11 +226,20 @@
         </Button>
 
         <Button
-            android:id="@+id/patras"
+            android:id="@+id/lacoma"
             android:layout_weight="1"
             android:layout_width="15pt"
             android:layout_height="30pt"
-            android:text="anterior"
+            android:text=","
+            android:layout_marginRight="2pt"
+            android:background="@color/botones_numero">
+        </Button>
+        <Button
+            android:id="@+id/color"
+            android:layout_weight="1"
+            android:layout_width="15pt"
+            android:layout_height="30pt"
+            android:text="color"
             android:layout_marginRight="2pt"
             android:background="@color/botones_numero">
         </Button>
@@ -232,11 +247,12 @@
         <Button
             android:id="@+id/division"
             android:layout_weight="1"
-            android:layout_width="10pt"
+            android:layout_width="15pt"
             android:layout_height="30pt"
             android:text="/"
-            android:layout_marginRight="3pt"
+            android:layout_marginRight="2pt"
             android:background="@color/botones_calculo">
+
         </Button>
     </LinearLayout>
 
